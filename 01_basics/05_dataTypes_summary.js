@@ -28,3 +28,26 @@ const myFunction = function(){
 }
 console.log(typeof myFunction)
 // dynamically typed
+
+// ***********************************
+
+// Stack (used for Primitive; returns a copy of the variable) 
+// Heap (for Non Primitive; returns a reference of the actual variable)
+
+let myFavFruit = "mango"
+let anotherFav = myFavFruit
+anotherFav = "strawberry"
+
+console.log(myFavFruit)
+console.log(anotherFav)
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "kanish@goo0gle.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
