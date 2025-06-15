@@ -40,3 +40,4 @@ JsUser.greetingTwo = function(){
 }
 
 console.log(JsUser.greetingTwo())
+
